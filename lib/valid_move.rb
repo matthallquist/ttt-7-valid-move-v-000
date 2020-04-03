@@ -3,7 +3,7 @@ def valid_move?(board, input)
   if position_taken?(board, input)
     return false
   else
-    if input == 0 || input < 9 
+    if input == 0 || input < 9
       true
     end
   end
